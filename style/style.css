@@ -1,0 +1,66 @@
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+}
+
+.calculator {
+    background-color: #ffffff;
+    width: 30%;
+    box-shadow: 5px 5px 10px 5px lightgray;
+}
+
+.cal-screen {
+    width: 95%;
+    height: 10rem;
+    background-color: #dbe1e9;
+}
+
+.cal-btn {
+    width: 8rem;
+}
+
+.cal-btn1 {
+    width: 8rem;
+    background-color: #9a9794;
+    color: white;
+}
+
+.cal-btn2 {
+    width: 8rem;
+    background-color: #d3cfcb;
+}
+
+.cal-btn3 {
+    width: 8rem;
+    background-color: #eda358;
+    color: white;
+}
+
+
+
+/* Media Screen */
+@media(min-width:1440px) {
+    .calculator {
+        background-color: #ffffff;
+        width: 30% !important;
+        box-shadow: 5px 5px 10px 5px lightgray;
+    }
+}
+
+@media(min-width:768px) {
+    .calculator {
+        background-color: #ffffff;
+        width: 50%;
+        box-shadow: 5px 5px 10px 5px lightgray;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:425px) {
+    .calculator {
+        background-color: #ffffff;
+        width: 100%;
+        box-shadow: 5px 5px 10px 5px lightgray;
+    }
+}
