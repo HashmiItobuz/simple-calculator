@@ -12,46 +12,44 @@
 </head>
 
 <body>
-    <div class="container calculator  mt-3 mt-xl-5 py-3 d-flex flex-column rounded-5">
+    <div class="container calculator  mt-3 mt-xl-4 py-3 d-flex flex-column rounded-5">
         <div class="cal-screen mt-4 rounded-3  mx-2 mx-lg-3 mx-lg-2 fs-1 d-flex align-items-end justify-content-end pe-2 overflow-auto"
             id="calScreen">
         </div>
         <div class="cal-button-section">
             <div class=" mt-5 d-flex justify-content-center gap-3">
-                <div class="rounded-3 py-4 text-center fs-3 cal-btn1" id="clearAllButton">AC</div>
-                <div class="rounded-3 py-4 text-center fs-3 cal-btn1" id="posNegOperator"><sup>+</sup>/<sub>-</sub>
-                </div>
-                <div class="rounded-3 py-4 text-center fs-3 cal-btn1" id="percentOperator">%</div>
-                <div class="rounded-3 py-4 text-center fs-3 cal-btn1  cal-operators">/</div>
+                <div class="rounded-3 py-4 text-center fs-3 cal-operator-btn" id="clearAllButton">AC</div>
+                <div class="rounded-3 py-4 text-center fs-3 cal-operator-btn" id="posNegOperator">
+                    <sup>+</sup>/<sub>-</sub></div>
+                <div class="rounded-3 py-4 text-center fs-3 cal-operator-btn" id="percentOperator">%</div>
+                <div class="rounded-3 py-4 text-center fs-3 cal-operator-btn  cal-operators">/</div>
             </div>
             <div class="cal-button mt-3 d-flex justify-content-center gap-3">
-                <div class="rounded-3 py-4 text-center fs-3 cal-btn2  cal-btn">7</div>
-                <div class="rounded-3 py-4 text-center fs-3 cal-btn2 cal-btn">8</div>
-                <div class="rounded-3 py-4 text-center fs-3 cal-btn2 cal-btn">9</div>
-                <div class="rounded-3 py-4 text-center fs-3 cal-btn1  cal-operators">x</div>
+                <div class="rounded-3 py-4 text-center fs-3 cal-number-btn cal-btn">7</div>
+                <div class="rounded-3 py-4 text-center fs-3 cal-number-btn cal-btn">8</div>
+                <div class="rounded-3 py-4 text-center fs-3 cal-number-btn cal-btn">9</div>
+                <div class="rounded-3 py-4 text-center fs-3 cal-operator-btn  cal-operators">x</div>
             </div>
             <div class="cal-button mt-3 d-flex justify-content-center gap-3">
-                <div class="rounded-3 py-4 text-center fs-3 cal-btn2 cal-btn">4</div>
-                <div class="rounded-3 py-4 text-center fs-3 cal-btn2 cal-btn">5</div>
-                <div class="rounded-3 py-4 text-center fs-3 cal-btn2 cal-btn">6</div>
-                <div class="rounded-3 py-4 text-center fs-3 cal-btn1 cal-operators">-</div>
+                <div class="rounded-3 py-4 text-center fs-3 cal-number-btn cal-btn">4</div>
+                <div class="rounded-3 py-4 text-center fs-3 cal-number-btn cal-btn">5</div>
+                <div class="rounded-3 py-4 text-center fs-3 cal-number-btn cal-btn">6</div>
+                <div class="rounded-3 py-4 text-center fs-3 cal-operator-btn cal-operators">-</div>
             </div>
             <div class="cal-button mt-3 d-flex justify-content-center gap-3">
-                <div class="rounded-3 py-4 text-center fs-3 cal-btn cal-btn2">1</div>
-                <div class="rounded-3 py-4 text-center fs-3 cal-btn cal-btn2">2</div>
-                <div class="rounded-3 py-4 text-center fs-3 cal-btn cal-btn2">3</div>
-                <div class="rounded-3 py-4 text-center fs-3 cal-btn1 cal-operators">+</div>
+                <div class="rounded-3 py-4 text-center fs-3 cal-btn cal-number-btn">1</div>
+                <div class="rounded-3 py-4 text-center fs-3 cal-btn cal-number-btn">2</div>
+                <div class="rounded-3 py-4 text-center fs-3 cal-btn cal-number-btn">3</div>
+                <div class="rounded-3 py-4 text-center fs-3 cal-operator-btn cal-operators">+</div>
             </div>
             <div class="cal-button mt-3 d-flex justify-content-center gap-3">
-                <div class="rounded-3 py-4 text-center fs-3 cal-btn cal-btn2">0</div>
-                <div class="rounded-3 py-4 text-center fs-3 cal-btn2" id="decimalButton">.</div>
-                <div class="rounded-3 py-4 text-center fs-3 cal-btn2" id="clearButton">C</div>
-                <div class="rounded-3 py-4 text-center fs-3 cal-btn3" id="equalOperator">=</div>
+                <div class="rounded-3 py-4 text-center fs-3 cal-btn cal-number-btn">0</div>
+                <div class="rounded-3 py-4 text-center fs-3 cal-number-btn" id="decimalButton">.</div>
+                <div class="rounded-3 py-4 text-center fs-3 cal-number-btn" id="clearButton">C</div>
+                <div class="rounded-3 py-4 text-center fs-3 cal-equal-btn" id="equalOperator">=</div>
             </div>
         </div>
-
     </div>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
